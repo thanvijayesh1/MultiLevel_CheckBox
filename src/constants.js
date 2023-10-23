@@ -1,4 +1,4 @@
-export const data = {
+export const StudentDetails = {
     label: "Class 9th",
     value: false,
     name: "class9",

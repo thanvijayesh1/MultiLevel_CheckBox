@@ -5,7 +5,7 @@ import NestedCheckBox from './components/NestedCheckBox';
 import { deepCopy, updateChildValuesByParentLabel, setParentValue } from './utils';
 
 function App() {
-  const [checkBoxConfig, setCheckBoxConfig] = useState(data);
+  const [checkBoxConfig, setCheckBoxConfig] = useState(StudentDetails);
 
   const updateValueCheckBox = useCallback((value, child) => {
     const updatedData = deepCopy(updateChildValuesByParentLabel(checkBoxConfig, child, value, false));
