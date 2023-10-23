@@ -1,6 +1,6 @@
 import './App.css';
 import { useState, useCallback } from 'react'; 
-import { data } from './constants';
+import { StudentDetails } from './constants';
 import NestedCheckBox from './components/NestedCheckBox';
 import { deepCopy, updateChildValuesByParentLabel, setParentValue } from './utils';
 
