@@ -1,5 +1,5 @@
 import React from 'react';
-import CheckBox from './checkbox';
+import CheckBox from './Checkbox';
 import './../App.css';
 
 function NestedCheckBox({ data,handleCheckBoxClick }) {
